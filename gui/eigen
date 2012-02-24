@@ -1,0 +1,24 @@
+Vector: implemented as special matrix
+Create: Matrix<float, 3, 1> is defined as Vector3f;
+Dot Product: a.dot(b)
+Cross Product: a.cross(b)
+Sum: a.sum()
+
+initialize
+Vector2d a(5.0, 6.0);
+Vector3d b(5.0, 6.0, 7.0);
+Vector4d c(5.0, 6.0, 7.0, 8.0);
+Matrix
+
+
+Create: Matrix<type,x,y>
+	Matrix<float,4,4>
+	is defined as Matrix4f
+	
+Initialize:
+	Matrix3f m;
+	m << 1, 2, 3,
+	     4, 5, 6,
+	     7, 8, 9;
+	m = Matrix3f::Identity();
+Access: Matrix 4f m; m(x,y)
